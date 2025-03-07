@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aries Mall - Electronics and Furniture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        <h1>Aries Mall</h1>
+                    </a>
+                </div>
+
+                <nav class="desktop-nav">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#electronics" class="nav-link">Electronics</a>
+                    <a href="#furniture" class="nav-link">Furniture</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="icon-button" aria-label="Search">
+                        <i data-lucide="search"></i>
+                    </button>
+                    <button class="icon-button" aria-label="Account">
+                        <i data-lucide="user"></i>
+                    </button>
+                    <button class="icon-button" aria-label="Cart">
+                        <i data-lucide="shopping-cart"></i>
+                    </button>
+                    <button class="icon-button menu-toggle" aria-label="Menu">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="mobile-nav">
+                <a href="/" class="nav-link">Home</a>
+                <a href="#electronics" class="nav-link">Electronics</a>
+                <a href="#furniture" class="nav-link">Furniture</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-slider">
+            <div class="slider-container">
+                <div class="slide">
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Latest Smart TVs">
+                    <div class="slide-content">
+                        <h2>Latest Smart TVs</h2>
+                        <p>Experience crystal clear picture quality with our new range of Smart TVs</p>
+                        <a href="#tvs" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Modern Furniture Collection">
+                    <div class="slide-content">
+                        <h2>Modern Furniture Collection</h2>
+                        <p>Transform your living space with our elegant furniture designs</p>
+                        <a href="#furniture" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Energy Efficient Appliances">
+                    <div class="slide-content">
+                        <h2>Energy Efficient Appliances</h2>
+                        <p>Save money and the environment with our energy-efficient appliances</p>
+                        <a href="#appliances" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn prev" aria-label="Previous slide">
+                <i data-lucide="chevron-left"></i>
+            </button>
+            <button class="slider-btn next" aria-label="Next slide">
+                <i data-lucide="chevron-right"></i>
+            </button>
+            <div class="slider-dots"></div>
+        </section>
+
+        <section class="welcome">
+            <div class="container">
+                <h2>Welcome to Aries Mall</h2>
+                <p>Your one-stop destination for premium electronics and furniture. We offer a wide range of high-quality products to enhance your living space with the perfect blend of style, comfort, and technology.</p>
+            </div>
+        </section>
+
+        <section id="electronics" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Electronics</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="4K Smart TV">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Television</div>
+                            <h3>4K Smart TV</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Double Door Refrigerator">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Fridge</div>
+                            <h3>Double Door Refrigerator</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Front Load Washing Machine">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Washing Machine</div>
+                            <h3>Front Load Washing Machine</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Oil Filled Room Heater">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Room Heater</div>
+                            <h3>Oil Filled Room Heater</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="furniture" class="products bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Furniture</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Wooden Wardrobe">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Almira</div>
+                            <h3>Wooden Wardrobe</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="King Size Bed">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Bed</div>
+                            <h3>King Size Bed</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Modern Dressing Table">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Dressing Table</div>
+                            <h3>Modern Dressing Table</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Ergonomic Office Chair">
+                        </div>
+                        <div class="product-content">
+                            <div class="product-category">Chair</div>
+                            <h3>Ergonomic Office Chair</h3>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <img src="/placeholder.svg?height=600&width=400" alt="Featured TV">
+                        <div class="featured-content">
+                            <h3>Smart TVs</h3>
+                            <p>Experience entertainment like never before</p>
+                            <button class="btn btn-outline-light">Explore</button>
+                        </div>
+                    </div>
+                    <div class="featured-item">
+                        <img src="/placeholder.svg?height=600&width=400" alt="Featured Furniture">
+                        <div class="featured-content">
+                            <h3>Bedroom Sets</h3>
+                            <p>Create your perfect sleep sanctuary</p>
+                            <button class="btn btn-outline-light">Explore</button>
+                        </div>
+                    </div>
+                    <div class="featured-item">
+                        <img src="/placeholder.svg?height=600&width=400" alt="Featured Appliance">
+                        <div class="featured-content">
+                            <h3>Kitchen Appliances</h3>
+                            <p>Modern solutions for your culinary needs</p>
+                            <button class="btn btn-outline-light">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us bg-light">
+            <div class="container">
+                <h2>Why Choose Aries Mall</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i data-lucide="shopping-cart"></i>
+                        </div>
+                        <h3>Quality Products</h3>
+                        <p>We offer only the highest quality electronics and furniture from trusted brands.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <h3>Nationwide Delivery</h3>
+                        <p>Fast and reliable delivery service to your doorstep anywhere in the country.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <h3>Customer Support</h3>
+                        <p>Our dedicated team is always ready to assist you with any queries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Aries Mall</h3>
+                    <p>Your one-stop destination for premium electronics and furniture.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#electronics">Electronics</a></li>
+                        <li><a href="#furniture">Furniture</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>123 Mall Street, Electronics District, City, Country</span>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <span>+1 (123) 456-7890</span>
+                        </li>
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <span>info@ariesmall.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aries Mall. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
